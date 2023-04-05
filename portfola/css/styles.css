@@ -10953,6 +10953,22 @@ header.masthead {
   background-position: center center;
   background-size: cover;
 }
+.masthead {
+  position: relative;
+}
+.masthead .container {
+  z-index: 5;
+  position: relative;
+}
+.masthead:before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  top: 0;
+  left: 0;
+}
 header.masthead .masthead-subheading {
   font-size: 1.5rem;
   font-style: italic;
