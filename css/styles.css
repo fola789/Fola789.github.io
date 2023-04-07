@@ -8234,7 +8234,12 @@ textarea.form-control-lg {
 .pe-auto {
   pointer-events: auto !important;
 }
-
+.svg-inline--fa {
+  display: var(--fa-display,inline-block);
+  height: 1em;
+  overflow: visible;
+  vertical-align: -.125em;
+}
 .rounded {
   border-radius: var(--bs-border-radius) !important;
 }
@@ -8269,6 +8274,9 @@ textarea.form-control-lg {
 
 .rounded-pill {
   border-radius: var(--bs-border-radius-pill) !important;
+}
+.coming-soon {
+    color: red; /* Set the text color to red */
 }
 
 .rounded-top {
